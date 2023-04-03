@@ -61,6 +61,8 @@ if (params.address !== ""){
   const address1 = document.getElementById("address1")
   const address2 = document.getElementById("address2")
   const address3 = document.getElementById("address3")
+    const address4 = document.getElementById("address4")
+address4.innerHTML=`<div class="gmap_canvas background back" ><iframe  width="100%" height="680"  id="gmap_canvas" src="https://maps.google.com/maps?q=${params.address}&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>`
 address.innerHTML=`${params.address}`
   address1.classList.remove("is-hidden")
   address2.innerHTML=`${params.address}`
@@ -104,7 +106,7 @@ for (const param in params){
   }
 }
 for(i=0;i<skill.length;i++){
-  if(skill[i].length>0){
+  if(skill[i] !== ""){
     if (i<2){
       skills=document.getElementById("skills1")}
     else if(i<4){
@@ -322,13 +324,13 @@ console.log(i)
 fetchData().then(data => {
   console.log(i)
 
-imgurl=data.results[i].links.download
+imgurl=data.results[g].links.download
   console.log(i)
   console.log(ptype)
 elem= document.createElement('div') 
 elem.innerHTML=`
-             <a href="https://${plink[g]}" target="_blank">
-                  <figure rel="tooltip" title="${pdes[g]}" class="cc-effect"><img src="${imgurl}" alt="${pdes[g]}"/>
+           <a href="https://${plink[g]}" target="_blank" rel="tooltip" title="${pdes[g]}">
+                  <figure  class="cc-effect"><img src="${imgurl}" alt="${pdes[g]}"/>
                     <figcaption>
                       <div class="h4">${ptitle[g]}</div>
                       <p>${ptype[g]}</p>

@@ -15,8 +15,6 @@ retake = document.getElementById('retake')
 function takePic(){
   let picture = webcam.snap();
   document.querySelector("a").href = picture;
-  
-  
 };
 
 
@@ -115,9 +113,7 @@ sliders[i].addEventListener("input", (e) => {
 //           </div>
 //           `
 //     employment1.append(elem)
-
 // });
-
 //trying next school
 education1 = document.getElementById("education1")
 
