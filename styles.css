@@ -38,12 +38,24 @@
   color: #333; /* Default text color (change as needed) */
 }
 
+/* Hover styles for the camera button in normal mode */
+.camera-button:hover {
+  background-color: #eeb817; /* Background color on hover in normal mode */
+  color: white; /* Text color on hover in normal mode (change as needed) */
+}
+
+
 /* Dark mode styles for the camera button */
 .dark-mode .camera-button {
-  background-color: grey; /* Background color for dark mode (change as needed) */
+  background-color: #004080; /* Background color for dark mode (change as needed) */
   color: white; /* Text color for dark mode (change as needed) */
 }
 
+/* Hover styles for the camera button in dark mode */
+.dark-mode .camera-button:hover {
+  background-color: #002a5e; /* Background color on hover in dark mode */
+  color: white; /* Text color on hover in dark mode (change as needed) */
+}
 
 
 
@@ -96,6 +108,13 @@ a{
   
 }
 
+/* Text color for input fields (always black) */
+input {
+  color: black;
+}
+
+
+
 
 /* Default styles for containers */
 #personal,
@@ -124,19 +143,24 @@ a{
   color: black; /* Default text color (change to your desired default color) */
 }
 
-/* Dark mode styles for text elements */
+/* Dark mode styles for text elements (excluding input fields) */
 .dark-mode #personal,
 .dark-mode #education,
 .dark-mode #employment,
 .dark-mode #projects,
 .dark-mode #skills,
 .dark-mode .subtitle,
-.dark-mode .input,
 .dark-mode .control,
 .dark-mode label,
 .dark-mode .has-text-centered p {
   color: white; /* Text color when dark mode is active */
 }
+
+/* Text color for input fields (always black) */
+.dark-mode input {
+  color: black;
+}
+
 
 /* Default button styles */
 .button.is-info {
@@ -150,9 +174,16 @@ a{
   color: white; /* Text color on hover (change as needed) */
 }
 
+/* Hover styles for the button in dark mode */
+.dark-mode .button.is-info:hover {
+  background-color: #00346e; /* Darker blue background color on hover in dark mode */
+  color: white; /* Text color on hover in dark mode (change as needed) */
+}
+
+
 /* Dark mode button styles */
 .dark-mode .button.is-info {
-  background-color: grey; /* Background color for dark mode (change as needed) */
+  background-color: #004080; /* Background color for dark mode (change as needed) */
   color: white; /* Text color for dark mode (change as needed) */
 }
 

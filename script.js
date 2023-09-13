@@ -14,9 +14,7 @@ containerElement.classList.toggle("dark-mode");
     boxElement.classList.toggle("dark-mode-box");
   });
 
-
-  
-  };
+};
 
 //WEBCAM
 const webCamElement = document.getElementById('webCam');
