@@ -1,5 +1,7 @@
 This is a Resume Maker that allows someone to input their details. The website then generates them a unique personal portfolio website with their details (i.e skills, education, contact details etc). I made this with the intention of improving the employability of professionals in trades or businesses where they are unable to find the time to learn to code and design their own website.
 
+Try Here: https://yafet-a.github.io/ResumeCreator/
+
 
 
 Directory Structure
