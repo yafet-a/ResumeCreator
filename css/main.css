@@ -2667,7 +2667,7 @@ body {
   .dropdown-menu.dropdown-primary {
     background-color: #33813a; }
     .dropdown-menu.dropdown-primary:before {
-      color: #33813a; }
+      color: #333; }
     .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
       color: rgba(255, 255, 255, 0.8); }
     .dropdown-menu.dropdown-primary .dropdown-item {
