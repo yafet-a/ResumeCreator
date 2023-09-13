@@ -3,6 +3,19 @@
 function darkMode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
+
+  var containerElement = document.getElementById("form-container");
+
+containerElement.classList.toggle("dark-mode");
+
+  // Add the dark-mode class to all elements with class "box"
+  var boxElements = document.querySelectorAll(".box");
+  boxElements.forEach(function (boxElement) {
+    boxElement.classList.toggle("dark-mode-box");
+  });
+
+
+  
   };
 
 //WEBCAM

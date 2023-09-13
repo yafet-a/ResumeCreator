@@ -9,12 +9,29 @@
    }
 
 
-/*DARK MODE*/
+/* Dark mode styles for the entire page */
 .dark-mode {
-  background-color: #000000;
+  background-color: #1a1a1a;
   color: white;
-  
 }
+
+/* Dark mode styles for the container */
+.dark-mode #form-container {
+  background-color: #333; /* Slightly lighter background for the container */
+  color: white;
+}
+
+/* Dark mode styles for the personal section */
+.dark-mode .box {
+  background-color: #333;
+  color: white;
+}
+
+/* Dark mode styles for the text in the hero section */
+.dark-mode .hero.has-text-centered p {
+  color: white;
+}
+
 
 
 
@@ -67,4 +84,59 @@ a{
 /*canvas{
   display:none
 }*/
+
+/* Default styles for containers */
+#personal,
+#education,
+#employment,
+#skills,
+#projects {
+  width: 100%;
+  margin: 0 auto; /* Center horizontally using margin */
+
+}
+
+/* Media query for larger screens (e.g., PCs) */
+@media screen and (min-width: 768px) {
+  #personal,
+  #education,
+  #employment,
+  #skills,
+  #projects {
+    width: 50%; /* Adjust the width as needed for larger screens */
+  }
+}
+
+/* Default text color for various text elements */
+#personal, #education, #employment, #projects, #skills, .subtitle, .input, .control, label, .has-text-centered p {
+  color: black; /* Default text color (change to your desired default color) */
+}
+
+/* Dark mode styles for text elements */
+.dark-mode #personal,
+.dark-mode #education,
+.dark-mode #employment,
+.dark-mode #projects,
+.dark-mode #skills,
+.dark-mode .subtitle,
+.dark-mode .input,
+.dark-mode .control,
+.dark-mode label,
+.dark-mode .has-text-centered p {
+  color: white; /* Text color when dark mode is active */
+}
+
+/* Default button styles */
+.button.is-info {
+  background-color: #008cb4; /* Default background color (change as needed) */
+  color: black; /* Default text color (change as needed) */
+}
+
+/* Dark mode button styles */
+.dark-mode .button.is-info {
+  background-color: grey; /* Background color for dark mode (change as needed) */
+  color: white; /* Text color for dark mode (change as needed) */
+}
+
+
 
