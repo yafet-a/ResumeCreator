@@ -60,13 +60,15 @@
               </div>
 
               <!--UPLOAD IMAGE-->
-              <div>
-                <a id = 'retake' download onclick="takePic()">Capture </a>
-                <span class="icon is-small is-left">
-                    <i class="fas fa-camera"></i>
-                  </span>
+             <div>
+  <a id="retake" download onclick="takePic()" class="camera-button">Capture</a>
+  <span class="icon is-small is-left">
+    <i class="fas fa-camera"></i>
+  </span>
   <video id="webCam" autoplay playsinline width="800" height="600"></video>
-  <canvas id="canvas"></canvas></div>
+  <canvas id="canvas"></canvas>
+</div>
+
 
               <!-- EMAIL -->
               <div class="field">
@@ -107,7 +109,7 @@
                 <p class="control has-icons-left">
                   <input pattern="[0-9]{2,}" name="age" class="input is-medium" placeholder="Age" title="Please enter a 2 digit age. If you are under this, you should not be using this site alone. Request an adult's supervision" />
                   <span class="icon is-small is-left">
-                    <i class="fas fa-calendar"></i>
+                    <i class="fas fa-birthday-cakebadge"></i>
                   </span>
                 </p>
               </div>
@@ -2050,7 +2052,7 @@
     </div> -->
 
     <!-- FOOTER -->
-    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+    <script  theme="blue" defer></script>
     <script src="script.js" type="text/javascript" defer></script>
   </section>
   

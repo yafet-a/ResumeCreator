@@ -12,13 +12,13 @@
 /* Dark mode styles for the entire page */
 .dark-mode {
   background-color: #1a1a1a;
-  color: white;
+  color: #F5F5F5;
 }
 
 /* Dark mode styles for the container */
 .dark-mode #form-container {
   background-color: #333; /* Slightly lighter background for the container */
-  color: white;
+  color: #F5F5F5;
 }
 
 /* Dark mode styles for the personal section */
@@ -32,6 +32,18 @@
   color: white;
 }
 
+/* Default styles for the camera button */
+.camera-button {
+  background-color: #FFDD57; /* Default background color (change as needed) */
+  color: #333; /* Default text color (change as needed) */
+}
+
+/* Dark mode styles for the camera button */
+.dark-mode .camera-button {
+  background-color: grey; /* Background color for dark mode (change as needed) */
+  color: white; /* Text color for dark mode (change as needed) */
+}
+
 
 
 
@@ -43,13 +55,16 @@
   -webkit-appearance: none;
   width: 100%;
   height: 15px;
-  border-radius: 5px;   
-  background: #d3d3d3;
+  border-radius: 5px;
+  background: #000000;
   outline: none;
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
+
+/* Rest of your CSS styles... */
+
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -57,7 +72,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%; 
-  background: #012f7b;
+  background: #FFDD57;
   cursor: pointer;
 }
 
@@ -70,7 +85,7 @@
 }
 a{
   
-  background-color: #008cb4;
+  background-color: #0078D4;
   color: black;
   text-decoration: none;
   border-radius: 25px;
@@ -128,8 +143,14 @@ a{
 
 /* Default button styles */
 .button.is-info {
-  background-color: #008cb4; /* Default background color (change as needed) */
+  background-color: #FFDD57; /* Default background color (change as needed) */
   color: black; /* Default text color (change as needed) */
+}
+
+/* Hover styles for the button */
+.button.is-info:hover {
+  background-color: #eeb817; /* Background color on hover (change as needed) */
+  color: white; /* Text color on hover (change as needed) */
 }
 
 /* Dark mode button styles */
