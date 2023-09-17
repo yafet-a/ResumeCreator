@@ -1,52 +1,54 @@
-This is a Resume Maker that allows someone to input their details. The website then generates them a unique personal portfolio website with their details (i.e skills, education, contact details etc). I made this with the intention of improving the employability of professionals in trades or businesses where they are unable to find the time to learn to code and design their own website.
+# Online Resume Maker 📄✨
 
-Try Here: https://cssi-resume-creator-yafet.yafet-alula.repl.co/
+🌐 **Try It Here:** [Resume Maker](https://cssi-resume-creator-yafet.yafet-alula.repl.co/)
 
+## Overview 🚀
 
+This Resume Maker simplifies the process of creating a personal portfolio website. Input your details, including skills, education, and contact information, and let the website generate a unique online portfolio for you. Perfect for professionals in trades or businesses who don't have time to learn coding and web design.
 
-Directory Structure
--------------------
-css\              - Stylesheets CSS files for the template.
-images\           - Images used in template.
-scripts\          - JavaScript used in the template.
-styles\           - SCSS source files for stylesheets CSS. Available in Purchased versions only.
-favicon.ico       - Favicon placeholder provided for the template.
-index.html        - Main HTML page to open the template in browser.
-*.html            - Additional HTML pages (if any).
-LICENSE-*.txt     - License file as per your downloaded variant.
+## Directory Structure 📁
 
-How to Edit the template
-------------------------
+- **css/**: Contains Stylesheets CSS files for the template.
+- **images/**: Stores Images used in the template.
+- **scripts/**: Contains JavaScript used in the template.
+- **styles/**: Includes SCSS source files for stylesheets CSS (available in Purchased versions only).
+- **favicon.ico**: Favicon placeholder provided for the template.
+- **index.html**: Main HTML page to open the template in the browser.
+- **\*.html**: Additional HTML pages (if any).
+- **LICENSE-*.txt**: License file as per your downloaded variant.
 
-1. Editing Content in template
+## How to Customize the Template 🛠️
 
-To edit the content open the corresponding *.html files and open them
-in an editor such as VSCode or Notepad++.
-Search for the content you want to change and edit it to the text you want.
-Save the file and reopen HTML file in browser to see the changes.
+### 1. Editing Content
 
-2. Editing Styles of template
+- To edit content, open the corresponding \*.html files in an editor like VSCode or Notepad++.
+- Search for the content you want to change and edit it to your preference.
+- Save the file and reopen the HTML file in the browser to see your changes.
 
-The main style is present in css\main.css which you can edit.
-You must know how to edit CSS files to do this.
-If you have purchased any of the premium version then you will also get
-SCSS source files which generates all the styles of the template.
-You can use these SCSS files to make your changes and regenerate CSS.
+### 2. Modifying Styles
 
-3. Changing Images
+- The main style is located in **css/main.css** and can be edited if you're familiar with CSS.
+- Premium versions include SCSS source files that generate all template styles. You can use these to make changes and regenerate the CSS.
 
-You can change images inside the images\ folder.
-Make sure to name the file same as the original file.
-If you wish to change the name of the image file then you must
-also make corresponding change in the HTML file which refer to that image.
+### 3. Updating Images
 
-How to use the template
------------------------
-Upload the contents to your webserver.
-index.html must be in the main (root) folder of your webserver.
-Do not change the name of the template folders or files unless you know
-what you are doing and are changing the names in HTML files too.
-For webhosting, you can go with https://templateflip.com/go/hosting for easy FTP file uploads.
+- Change images within the **images/** folder.
+- Ensure the new image files have the same names as the original ones.
+- If renaming image files, update the corresponding references in the HTML files.
 
-(Fun Fact: I coded most of this on an iPad because my laptop was damaged when making this lol)
+## How to Use the Template 🚀
 
+1. Upload the template contents to your webserver.
+2. Ensure that **index.html** is in the main (root) folder of your webserver.
+3. Avoid renaming template folders or files unless you know how to update references in HTML files.
+4. For web hosting, consider [TemplateFlip hosting](https://templateflip.com/go/hosting) for easy FTP file uploads.
+
+🎉 **Fun Fact**: Most of this was coded on an iPad because my laptop was damaged while creating this! 🙌
+
+## Preview of Your Resume Pages 🌟
+
+![Resume Page 1](C:\Users\alula\OneDrive\Pictures\resumepg1)
+![Resume Page 2](C:\Users\alula\OneDrive\Pictures\Screenshots\resumepg2.jpg)
+![Resume Page 3](C:\Users\alula\OneDrive\Pictures\Screenshots\resumepg3.jpg)
+
+Enjoy creating your personalized online portfolio! 🌟✨
