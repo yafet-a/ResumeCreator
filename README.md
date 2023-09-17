@@ -7,9 +7,6 @@
 This Resume Maker simplifies the process of creating a personal portfolio website. Input your details, including skills, education, and contact information, and let the website generate a unique online portfolio for you. Perfect for professionals in trades or businesses who don't have time to learn coding and web design.
 
 
-
-
-
 ## Directory Structure 📁
 
 - **css/**: Contains Stylesheets CSS files for the template.
@@ -33,19 +30,6 @@ This Resume Maker simplifies the process of creating a personal portfolio websit
 
 - The main style is located in **css/main.css** and can be edited if you're familiar with CSS.
 - Premium versions include SCSS source files that generate all template styles. You can use these to make changes and regenerate the CSS.
-
-### 3. Updating Images
-
-- Change images within the **images/** folder.
-- Ensure the new image files have the same names as the original ones.
-- If renaming image files, update the corresponding references in the HTML files.
-
-## How to Use the Template 🚀
-
-1. Upload the template contents to your webserver.
-2. Ensure that **index.html** is in the main (root) folder of your webserver.
-3. Avoid renaming template folders or files unless you know how to update references in HTML files.
-4. For web hosting, consider [TemplateFlip hosting](https://templateflip.com/go/hosting) for easy FTP file uploads.
 
 🎉 **Fun Fact**: Most of this was coded on an iPad because my laptop was damaged while creating this! 🙌
 
