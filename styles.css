@@ -164,9 +164,11 @@ input {
   #employment,
   #skills,
   #projects {
-    width: 75%; /* Adjust the width as needed for larger screens */
+    width: 100%; /* Adjust the width as needed for larger screens */
   }
 }
+
+
 
 /* Default text color for various text elements */
 #personal, #education, #employment, #projects, #skills, .subtitle, .input, .control, label, .has-text-centered p {

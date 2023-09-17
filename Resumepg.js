@@ -49,6 +49,20 @@ email.innerHTML=`${params.email}`
 const email1 = document.getElementById("email1")
 email1.innerHTML=`${params.email}`
 
+const recipientEmail = email1.textContent.trim(); // Get the text content and trim any extra spaces
+
+// Set the recipient's email in the hidden input field
+document.getElementById("recipientEmail").value = recipientEmail;
+
+// Submit the form
+document.getElementById("sendButton").addEventListener("click", function () {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+    // Submit the form programmatically
+    document.querySelector("form").submit();
+});
+
 
 if (params.age !== ""){
   const age = document.getElementById("age")

@@ -275,10 +275,10 @@
     </div>
   </div>
 </div> -->
-<div class="section" id="contact">
-  <div class="cc-contact-information" ">
-    <div id="address4"> </div>
-    <div class="container fr ">
+<div class="section" id="contact" style="max-width: 100%; overflow: hidden;">
+  <div class="cc-contact-information">
+    <div id="address4"></div>
+    <div class="container fr">
       <div class="cc-contact">
         <div class="row">
           <div class="col-md-9 fr">
@@ -287,38 +287,41 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
-                    <form action="https://formspree.io/your@email.com" method="POST">
+                    <form action="send_email.php" method="POST">
                       <div id="contact" class="p pb-3"><strong>Feel free to contact me </strong></div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" id ='namecontact' placeholder="Name" required="required"/>
+                            <input class="form-control" type="text" name="name" id="namecontact" placeholder="Name" required="required" />
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required" />
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input class="form-control" type="email" name="_replyto" id ='emailcontact'placeholder="E-mail" required="required"/>
+                            <input class="form-control" type="email" name="_replyto" id="emailcontact" placeholder="E-mail" required="required" />
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Your Message"  id =messagecontact'required="required"></textarea>
+                            <textarea class="form-control" name="message" placeholder="Your Message" id="messagecontact" required="required"></textarea>
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col">
+                          <!-- Hidden input field for recipient's email -->
+                          <input type="hidden" name="recipientEmail" id="recipientEmail" value="" />
+
                           <button class="btn btn-primary" type="submit" id="sendButton">Send</button>
                         </div>
                       </div>
@@ -328,15 +331,18 @@
                 <div class="col-md-6">
                   <div class="card-body">
                     <div id="address3" class="is-hidden">
-                    <p class="mb-0" ><strong>Address </strong></p>
-                    <p class="pb-2" id="address2">140, City Center, New York, U.S.A</p></div>
-                   <div id="number3" class="is-hidden"> <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2" id="number2">+1718-111-0011</p></div>
+                      <p class="mb-0"><strong>Address </strong></p>
+                      <p class="pb-2" id="address2">140, City Center, New York, U.S.A</p>
+                    </div>
+                    <div id="number3" class="is-hidden">
+                      <p class="mb-0"><strong>Phone</strong></p>
+                      <p class="pb-2" id="number2">+1718-111-0011</p>
+                    </div>
                     <p class="mb-0"><strong>Email</strong></p>
-                    <p id="email1">anthony@company.com</p></div>
-                  
-               
-              
+                    <p id="email1">anthony@company.com</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -344,7 +350,7 @@
     </div>
   </div>
 </div>
-    </div>
+
     <!-- <footer class="footer">
       <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
       <div class="h4 title text-center">Anthony Barnett</div>
