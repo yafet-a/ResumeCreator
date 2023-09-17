@@ -6,6 +6,14 @@
 
 This Resume Maker simplifies the process of creating a personal portfolio website. Input your details, including skills, education, and contact information, and let the website generate a unique online portfolio for you. Perfect for professionals in trades or businesses who don't have time to learn coding and web design.
 
+
+## Preview of The Generated Portfolio Page 🌟
+
+![Resume Page 1](https://github.com/yafet-a/ResumeCreator/blob/images/resumepg1.png)
+![Resume Page 2](https://github.com/yafet-a/ResumeCreator/blob/main/images/resumepg2.png)
+![Resume Page 3](https://github.com/yafet-a/ResumeCreator/blob/main/images/resumepg3.png)
+
+
 ## Directory Structure 📁
 
 - **css/**: Contains Stylesheets CSS files for the template.
@@ -44,15 +52,5 @@ This Resume Maker simplifies the process of creating a personal portfolio websit
 4. For web hosting, consider [TemplateFlip hosting](https://templateflip.com/go/hosting) for easy FTP file uploads.
 
 🎉 **Fun Fact**: Most of this was coded on an iPad because my laptop was damaged while creating this! 🙌
-
-## Preview of Your Resume Pages 🌟
-
-![Resume Page 1](https://github.com/yafet-a/ResumeCreator/blob/images/resumepg1.png)
-![Resume Page 2](https://github.com/yafet-a/ResumeCreator/blob/main/images/resumepg2.png)
-![Resume Page 3](https://github.com/yafet-a/ResumeCreator/blob/main/images/resumepg3.png)
-
-
-
-
 
 Enjoy creating your personalized online portfolio! 🌟✨
