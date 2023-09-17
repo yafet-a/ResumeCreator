@@ -34,7 +34,7 @@ This Resume Maker simplifies the process of creating a personal portfolio websit
 
 ## Preview of The Generated Portfolio Page 🌟
 
-![Resume Page 1](https://github.com/yafet-a/ResumeCreator/blob/main/images/resumepg1.png)
+![Resume Page 1](https://github.com/yafet-a/ResumeCreator/raw/main/images/resumepg1.png)
 ![Resume Page 2](https://github.com/yafet-a/ResumeCreator/blob/images/main/resumepg2.png)
 ![Resume Page 3](https://github.com/yafet-a/ResumeCreator/blob/images/main/resumepg3.png)
 
