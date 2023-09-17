@@ -29,9 +29,8 @@ This Resume Maker simplifies the process of creating a personal portfolio websit
 ### 2. Modifying Styles
 
 - The main style is located in **css/main.css** and can be edited if you're familiar with CSS.
-- Premium versions include SCSS source files that generate all template styles. You can use these to make changes and regenerate the CSS.
 
-🎉 **Fun Fact**: Most of this was coded on an iPad because my laptop was damaged while creating this! 🙌
+🎉 **Fun (but sad) Fact**: Most of this was coded on an iPad because my laptop was damaged while creating this! 🙌
 
 ## Preview of The Generated Portfolio Page 🌟
 
