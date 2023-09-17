@@ -32,11 +32,11 @@ This Resume Maker simplifies the process of creating a personal portfolio websit
 
 🎉 **Fun (but sad) Fact**: Most of this was coded on an iPad because my laptop was damaged while creating this! 🙌
 
-## Preview of The Generated Portfolio Page 🌟
+<!-- ## Preview of The Generated Portfolio Page 🌟
 
-![Resume Page 1](https://github.com/yafet-a/ResumeCreator/images/resumepg1.png)
+![Resume Page 1](https://github.com/yafet-a/ResumeCreator/blob/main/images/resumepg1.png)
 ![Resume Page 2](https://github.com/yafet-a/ResumeCreator/blob/main/images/resumepg2.png)
-![Resume Page 3](https://github.com/yafet-a/ResumeCreator/blob/main/images/resumepg3.png)
+![Resume Page 3](https://github.com/yafet-a/ResumeCreator/blob/main/images/resumepg3.png)-->
 
 
 Enjoy creating your personalized online portfolio! 🌟✨
