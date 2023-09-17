@@ -47,8 +47,9 @@ This Resume Maker simplifies the process of creating a personal portfolio websit
 
 ## Preview of Your Resume Pages 🌟
 
-![Resume Page 1](C:\Users\alula\OneDrive\Pictures\resumepg1)
-![Resume Page 2](C:\Users\alula\OneDrive\Pictures\Screenshots\resumepg2.jpg)
-![Resume Page 3](C:\Users\alula\OneDrive\Pictures\Screenshots\resumepg3.jpg)
+![Resume Page 1](images/resumepg1.jpg)
+![Resume Page 2](images/resumepg2.jpg)
+![Resume Page 3](images/resumepg3.jpg)
+
 
 Enjoy creating your personalized online portfolio! 🌟✨
