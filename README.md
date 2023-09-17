@@ -2,6 +2,12 @@
 
 🌐 **Try It Here:** [Resume Maker](https://cssi-resume-creator-yafet.yafet-alula.repl.co/)
 
+## Preview of The Generated Portfolio Page 🌟
+
+![Image 1](https://github.com/yafet-a/ResumeCreator/blob/resume-creator-mvp/images/resumepg1.png)
+![Image 2](https://github.com/yafet-a/ResumeCreator/blob/resume-creator-mvp/images/resumepg2.png)
+![Image 3](https://github.com/yafet-a/ResumeCreator/blob/resume-creator-mvp/images/resumepg3.png)
+
 ## Overview 🚀
 
 This Resume Maker simplifies the process of creating a personal portfolio website. Input your details, including skills, education, and contact information, and let the website generate a unique online portfolio for you. Perfect for professionals in trades or businesses who don't have time to learn coding and web design.
@@ -31,12 +37,6 @@ This Resume Maker simplifies the process of creating a personal portfolio websit
 - The main style is located in **css/main.css** and can be edited if you're familiar with CSS.
 
 🎉 **Fun (but sad) Fact**: Most of this was coded on an iPad because my laptop was damaged while creating this! 🙌
-
-## Preview of The Generated Portfolio Page 🌟
-
-![Image 1](https://github.com/yafet-a/ResumeCreator/blob/resume-creator-mvp/images/resumepg2.png)
-![Image 2](https://github.com/yafet-a/ResumeCreator/blob/resume-creator-mvp/images/resumepg2.png)
-![Image 3](https://github.com/yafet-a/ResumeCreator/blob/resume-creator-mvp/images/resumepg2.png)
 
 
 Enjoy creating your personalized online portfolio! 🌟✨
