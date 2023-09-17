@@ -1,0 +1,196 @@
+
+/*Dropdown menu*/
+.dropdown {
+    color: #016e8f
+    background-color: whitesmoke
+    text-align: center
+
+    
+   }
+
+
+/* Dark mode styles for the entire page */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #F5F5F5;
+}
+
+/* Dark mode styles for the container */
+.dark-mode #form-container {
+  background-color: #333; /* Slightly lighter background for the container */
+  color: #F5F5F5;
+}
+
+/* Dark mode styles for the personal section */
+.dark-mode .box {
+  background-color: #333;
+  color: white;
+}
+
+.container {
+  border-radius: 10px;
+}
+
+
+/* Dark mode styles for the text in the hero section */
+.dark-mode .hero.has-text-centered p {
+  color: white;
+}
+
+/* Default styles for the camera button */
+.camera-button {
+  background-color: #FFDD57; /* Default background color (change as needed) */
+  color: #333; /* Default text color (change as needed) */
+}
+
+/* Hover styles for the camera button in normal mode */
+.camera-button:hover {
+  background-color: #eeb817; /* Background color on hover in normal mode */
+  color: white; /* Text color on hover in normal mode (change as needed) */
+}
+
+
+/* Dark mode styles for the camera button */
+.dark-mode .camera-button {
+  background-color: #004080; /* Background color for dark mode (change as needed) */
+  color: white; /* Text color for dark mode (change as needed) */
+}
+
+/* Hover styles for the camera button in dark mode */
+.dark-mode .camera-button:hover {
+  background-color: #002a5e; /* Background color on hover in dark mode */
+  color: white; /* Text color on hover in dark mode (change as needed) */
+}
+
+
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #000000;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/* Rest of your CSS styles... */
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #FFDD57;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #012f7b;
+  cursor: pointer;
+}
+a{
+  
+  background-color: #0078D4;
+  color: black;
+  text-decoration: none;
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+  
+}
+
+/* Text color for input fields (always black) */
+input {
+  color: black;
+}
+
+
+
+
+/* Default styles for containers */
+#personal,
+#education,
+#employment,
+#skills,
+#projects {
+  width: 100%;
+  margin: 0 auto; /* Center horizontally using margin */
+
+}
+
+/* Media query for larger screens (e.g., PCs) */
+@media screen and (min-width: 768px) {
+  #personal,
+  #education,
+  #employment,
+  #skills,
+  #projects {
+    width: 50%; /* Adjust the width as needed for larger screens */
+  }
+}
+
+/* Default text color for various text elements */
+#personal, #education, #employment, #projects, #skills, .subtitle, .input, .control, label, .has-text-centered p {
+  color: black; /* Default text color (change to your desired default color) */
+}
+
+/* Dark mode styles for text elements (excluding input fields) */
+.dark-mode #personal,
+.dark-mode #education,
+.dark-mode #employment,
+.dark-mode #projects,
+.dark-mode #skills,
+.dark-mode .subtitle,
+.dark-mode .control,
+.dark-mode label,
+.dark-mode .has-text-centered p {
+  color: white; /* Text color when dark mode is active */
+}
+
+/* Text color for input fields (always black) */
+.dark-mode input {
+  color: black;
+}
+
+
+/* Default button styles */
+.button.is-info {
+  background-color: #FFDD57; /* Default background color (change as needed) */
+  color: black; /* Default text color (change as needed) */
+}
+
+/* Hover styles for the button */
+.button.is-info:hover {
+  background-color: #eeb817; /* Background color on hover (change as needed) */
+  color: white; /* Text color on hover (change as needed) */
+}
+
+/* Hover styles for the button in dark mode */
+.dark-mode .button.is-info:hover {
+  background-color: #00346e; /* Darker blue background color on hover in dark mode */
+  color: white; /* Text color on hover in dark mode (change as needed) */
+}
+
+
+/* Dark mode button styles */
+.dark-mode .button.is-info {
+  background-color: #004080; /* Background color for dark mode (change as needed) */
+  color: white; /* Text color for dark mode (change as needed) */
+}
+
+
+

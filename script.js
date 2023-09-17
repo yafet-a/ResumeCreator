@@ -17,16 +17,16 @@ containerElement.classList.toggle("dark-mode");
 };
 
 //WEBCAM
-const webCamElement = document.getElementById('webCam');
-const canvasElement = document.getElementById('canvas');
-const webcam = new Webcam(webCamElement, "user", canvasElement);
-webcam.start();
-retake = document.getElementById('retake')
+// const webCamElement = document.getElementById('webCam');
+// const canvasElement = document.getElementById('canvas');
+// const webcam = new Webcam(webCamElement, "user", canvasElement);
+// webcam.start();
+// retake = document.getElementById('retake')
 
-function takePic(){
-  let picture = webcam.snap();
-  document.querySelector("a").href = picture;
-};
+// function takePic(){
+//   let picture = webcam.snap();
+//   document.querySelector("a").href = picture;
+// };
 
 
 //employment1 = document.getElementById("employment1")
@@ -160,111 +160,7 @@ addProjects.addEventListener("click", e => {
   for (const input of inputs) {
     input.removeAttribute('disabled')
   }})
-// addEducation.addEventListener("click", e => {
-//   edcounter++
-//   const elemed =
-//     document.createElement('div')
-//   elemed.innerHTML = `    
-//      <br> <br>
-// <!-- SCHOOL NAME -->
-//           <div class="field ">
-//             <p class="control has-icons-left">
-//               <input class="input is-medium" type="schoolname" placeholder="School name" />
-//               <span class="icon is-small is-left">
-//                 <i class="fas fa-lock"></i>
-//               </span>
-//             </p>
-//           </div>
 
-//           <!-- EDUCATION LEVEL -->
-//           <div class="dropdown">
-//             <label for="educationLevel">Education Level </label>
-//             <select name="levels" id="educationLevel">
-//               <option value="highschool">Highschool</option>
-//               <option value="Undergraduate">Undergraduate</option>
-//               <option value="Postgraduate">Postgraduate</option>
-//               <option value="Other">Other</option>
-
-//             </select>
-//           </div>
-
-//           <!-- START DATE  -->
-//           <div class="field">
-//             <p class="control has-icons-left has-icons-right">
-//               <input id="start1" class="input is-medium" type="startdate" placeholder="Start date" />
-//               <span class="icon is-medium is-left">
-//                 <i class="fas fa-envelope"></i>
-//               </span>
-//               <span class="icon is-medium is-right">
-//               </span>
-//             </p>
-//           </div>
-
-//           <!-- END DATE -->
-//           <div class="field">
-//             <p class="control has-icons-left has-icons-right">
-//               <input id="end1" class="input is-medium" type="enddate" placeholder="End Date/ Expected End Date" />
-//               <span class="icon is-medium is-left">
-//                 <i class="fas fa-phone"></i>
-//               </span>
-//               <span class="icon is-medium is-right">
-//               </span>
-//             </p>
-//           </div>
-
-//           <!-- FIELD OF EDUCATION -->
-//           <div class="field">
-//             <!-- extension: make this into drop down select -->
-//             <p class="control has-icons-left">
-//               <input class="input is-medium" type="field" placeholder="Field of education" />
-//               <span class="icon is-small is-left">
-//                 <i class="fas fa-calendar"></i>
-//               </span>
-//             </p>
-//           </div>`
-//   education1.append(elemed)
-
-// });
-// project1 = document.getElementById("project1");
-
-// project = document.getElementById("projects");
-
-// projectscounter = 1
-// addProjects.addEventListener("click", e => {
-//   projectscounter++
-//   const elemp =
-//     document.createElement('div')
-//   elemp.innerHTML = `
-//       <br> <br>
-//   <!-- PROJECT TITLE -->
-//           <div class="field">
-//             <p class="control has-icons-left">
-//               <input class="input is-medium" type="projecttitle" placeholder="Project/ Work Experiences title" />
-//               <span class="icon is-small is-left">
-//                 <i class="fas fa-lock"></i>
-//               </span>
-//             </p>
-//           </div>
-
-//           <!-- DETAILS -->
-//           <div class="field">
-//             <textarea class="textarea" placeholder="Give details of your project/ work experience."
-//               rows="10"></textarea>
-//           </div>`
-//   project1.append(elemp)
-// });
-
-
-//const nextpers = document.querySelector("#NextPersonal");  //way of accessing the DOM
-//console.log(nextpers)
-//login.addEventListener("click", event => { window.open("#") });
-
-//const nextpers =document.getElementbyId("nextpers")
-//nextpers.addEventListener("click",e=>{
-//personalclassList.remove("is-hidden")
-//});
-
-//personal next (show education)
 const nextpersonal = document.getElementById("nextpersonal")
 education = document.getElementById("education")
 nextpersonal.addEventListener("click", e => {
@@ -388,18 +284,3 @@ validateDates('emstart1', 'emend1')
 //     event.target.setCustomValidity('');
 //   }
 // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,12 +1,21 @@
 
 /*Dropdown menu*/
 .dropdown {
-    color: #016e8f
-    background-color: whitesmoke
-    text-align: center
+    color: #016e8f;
+    background-color: whitesmoke;
+    text-align: center;
 
     
    }
+
+/* Updated CSS for a light blue background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E0F2F1; /* Light blue color */
+  margin: 0;
+  padding: 0;
+}
+
 
 
 /* Dark mode styles for the entire page */
@@ -15,11 +24,9 @@
   color: #F5F5F5;
 }
 
-/* Dark mode styles for the container */
-.dark-mode #form-container {
-  background-color: #333; /* Slightly lighter background for the container */
-  color: #F5F5F5;
-}
+
+
+
 
 /* Dark mode styles for the personal section */
 .dark-mode .box {
@@ -34,26 +41,49 @@
 
 /* Default styles for the camera button */
 .camera-button {
-  background-color: #FFDD57; /* Default background color (change as needed) */
+  background-color: #6FD5C2; /* Default background color (change as needed) */
   color: #333; /* Default text color (change as needed) */
 }
 
 /* Hover styles for the camera button in normal mode */
 .camera-button:hover {
-  background-color: #eeb817; /* Background color on hover in normal mode */
+  background-color: #90E8D8; /* Background color on hover in normal mode */
   color: white; /* Text color on hover in normal mode (change as needed) */
+}
+
+
+/* Updated styles for input boxes in dark mode */
+.dark-mode .field input.input {
+  background-color: #333; /* Same color as the box in dark mode */
+  color: white; /* Text color for input boxes in dark mode */
+  border: 1px solid #555; /* Adjust border color */
+}
+
+.dark-mode .textarea {
+  background-color: #333; /* Same color as the box in dark mode */
+  color: white; /* Text color for input boxes in dark mode */
+  border: 1px solid #555; /* Adjust border color */
+}
+
+.dark-mode .textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5); /* White color with 50% opacity (adjust opacity as needed) */
+}
+
+
+.dark-mode .field input.input::placeholder {
+  color: rgba(255, 255, 255, 0.5); /* White color with 50% opacity (adjust opacity as needed) */
 }
 
 
 /* Dark mode styles for the camera button */
 .dark-mode .camera-button {
-  background-color: #004080; /* Background color for dark mode (change as needed) */
+  background-color: #21BF89; /* Background color for dark mode (change as needed) */
   color: white; /* Text color for dark mode (change as needed) */
 }
 
 /* Hover styles for the camera button in dark mode */
 .dark-mode .camera-button:hover {
-  background-color: #002a5e; /* Background color on hover in dark mode */
+  background-color: #1D9E63; /* Background color on hover in dark mode */
   color: white; /* Text color on hover in dark mode (change as needed) */
 }
 
@@ -68,7 +98,7 @@
   width: 100%;
   height: 15px;
   border-radius: 5px;
-  background: #000000;
+  background: #E0F2F1;
   outline: none;
   opacity: 0.7;
   -webkit-transition: .2s;
@@ -84,7 +114,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%; 
-  background: #FFDD57;
+  background: #21BF89;
   cursor: pointer;
 }
 
@@ -134,7 +164,7 @@ input {
   #employment,
   #skills,
   #projects {
-    width: 50%; /* Adjust the width as needed for larger screens */
+    width: 75%; /* Adjust the width as needed for larger screens */
   }
 }
 
@@ -161,31 +191,78 @@ input {
   color: black;
 }
 
-
 /* Default button styles */
 .button.is-info {
-  background-color: #FFDD57; /* Default background color (change as needed) */
+  background-color: #6FD5C2 ; /* Default background color (change as needed) */
   color: black; /* Default text color (change as needed) */
 }
 
 /* Hover styles for the button */
 .button.is-info:hover {
-  background-color: #eeb817; /* Background color on hover (change as needed) */
+  background-color: #90E8D8; /* Background color on hover (change as needed) */
   color: white; /* Text color on hover (change as needed) */
 }
 
 /* Hover styles for the button in dark mode */
 .dark-mode .button.is-info:hover {
-  background-color: #00346e; /* Darker blue background color on hover in dark mode */
+  background-color: #1D9E63; /* Darker blue background color on hover in dark mode */
   color: white; /* Text color on hover in dark mode (change as needed) */
 }
 
-
 /* Dark mode button styles */
 .dark-mode .button.is-info {
-  background-color: #004080; /* Background color for dark mode (change as needed) */
+  background-color: #21BF89; /* Background color for dark mode (change as needed) */
   color: white; /* Text color for dark mode (change as needed) */
 }
+
+
+
+/* Active state styles for the button in dark mode */
+.dark-mode .button.is-info:active {
+  background-color: #1D9E63; /* Background color when clicked in dark mode (change as needed) */
+  color: white; /* Text color when clicked in dark mode (change as needed) */
+}
+
+/* Updated styles for the submit button */
+#submit {
+  background-color: #6FD5C2; /* Light blue background color in normal mode */
+  color: #333; /* Text color in normal mode (change as needed) */
+}
+
+/* Hover styles for the submit button in normal mode */
+#submit:hover {
+  background-color: #90E8D8; /* Background color on hover in normal mode */
+  color: white; /* Text color on hover in normal mode (change as needed) */
+}
+
+/* Dark mode styles for the submit button */
+.dark-mode #submit {
+  background-color: #21BF89; /* Greenish background color in dark mode */
+  color: white; /* Text color in dark mode (change as needed) */
+}
+
+/* Hover styles for the submit button in dark mode */
+.dark-mode #submit:hover {
+  background-color: #1D9E63; /* Background color on hover in dark mode */
+  color: white; /* Text color on hover in dark mode (change as needed) */
+}
+
+/* Dark mode styles for "Add Employment," "Add Skills," and "Add Education" buttons */
+.dark-mode #add-employment,
+.dark-mode #addSkills,
+.dark-mode #addEducation {
+  background-color: #21BF89; /* Background color for dark mode (change as needed) */
+  color: white; /* Text color for dark mode (change as needed) */
+}
+
+/* Hover styles for these buttons in dark mode */
+.dark-mode #add-employment:hover,
+.dark-mode #addSkills:hover,
+.dark-mode #addEducation:hover {
+  background-color: #1D9E63; /* Background color on hover in dark mode */
+  color: white; /* Text color on hover in dark mode (change as needed) */
+}
+
 
 
 
